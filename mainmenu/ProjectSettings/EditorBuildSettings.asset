@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Interstelar Insanity/mainmenu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Interstelar Insanity/second menu.unity
+    guid: afbdac90b32e514479313f61499f879a
+  - enabled: 1
+    path: Assets/Interstelar Insanity/Settings Menu.unity
+    guid: 8992ef12f419ed34cb427eccc4447f76
+  - enabled: 1
+    path: Assets/Interstelar Insanity/charecter menu.unity
+    guid: b47e208665da8b64693115b576ed3777
+  - enabled: 1
+    path: Assets/Interstelar Insanity/high score game.unity
+    guid: d03706984f016d84eafcf501c055166d
+  - enabled: 1
+    path: Assets/Interstelar Insanity/multiplayer start.unity
+    guid: 96f584a75ade5e541bcdad929571248c
+  - enabled: 1
+    path: Assets/Interstelar Insanity/Charecter select.unity
+    guid: 88aaf15da9bfcc64a8216dbf716aee16
+  m_configObjects: {}
