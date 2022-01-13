@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Interstelar Insanity/Charecter select.unity
     guid: 88aaf15da9bfcc64a8216dbf716aee16
+  - enabled: 1
+    path: Assets/Interstelar Insanity/highscoregame.unity
+    guid: fac7466e6e08e8c46a42a49ac13279e8
   m_configObjects: {}
