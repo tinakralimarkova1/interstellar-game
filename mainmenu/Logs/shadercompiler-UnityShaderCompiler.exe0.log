@@ -52,3 +52,4 @@ Cmd: disassembleShader
 Cmd: disassembleShader
  name=Unlit/Texture platform=d3d11 type=17 mask=6 insize=378 outsize=940 ok=1
 
+Cmd: shutdown
