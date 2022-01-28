@@ -6,7 +6,9 @@ using UnityEngine.UI;
 public class ScoreMan : MonoBehaviour
 {
     public Text scoreText;
+   // public Text HighScoreText;
     private float score;
+    private float hsScore;
 
     
 
@@ -16,7 +18,26 @@ public class ScoreMan : MonoBehaviour
         if(GameObject.FindGameObjectWithTag("Player") != null)
         {
             score += 10 * Time.deltaTime;
-            scoreText.text = ((int)score).ToString();
+           scoreText.text = ((int)score).ToString(); 
+
+           if(score > PlayerPrefs.GetFloat("highscore"))
+           {
+                PlayerPrefs.SetFloat("highscore", score);
+           }
+          
         }
+
+       // if(score > hsScore)
+    //   {
+     //       hsScore = score;
+//
+       //     HighScoreText.text = ((int)hsScore).ToString();
+       // }
+    } 
+
+    void HS()
+    {
+       
     }
+
 }

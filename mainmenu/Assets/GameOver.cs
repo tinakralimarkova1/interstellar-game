@@ -1,13 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
     public GameObject gameOverPanel;
+   // public Text HStext;
 
-   
+   private void Start()
+   {
+   //scoreText.text = ((int)score).ToString();
+         // HStext.text =((int) PlayerPrefs.GetFloat("highscore")).ToString();
+   }
 
     // Update is called once per frame
     void Update()
@@ -16,6 +22,8 @@ public class GameOver : MonoBehaviour
         {
             gameOverPanel.SetActive(true);
         }
+
+        
     }
 
     public void Restart()

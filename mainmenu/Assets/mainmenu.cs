@@ -15,7 +15,7 @@ public class mainmenu : MonoBehaviour
 
     public void Highscore() => SceneManager.LoadScene(7);
 
-    public void CharacterMenu() => SceneManager.LoadScene(3);
+    
 
     public void MultiStart() => SceneManager.LoadScene(5);
 
