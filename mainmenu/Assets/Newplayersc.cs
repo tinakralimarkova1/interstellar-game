@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Newplayersc : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] float speed;
+    Vector2 moveValue;
+
+    public void Move (InputAction.CallbackContext context)
     {
-        
+
+        moveValue = (context.ReadValue<Vector2>() * Time.deltaTime * speed);
     }
 
-    // Update is called once per frame
-    void Update()
+   private void Update()
     {
-        
+        transform.Translate(moveValue);
     }
 }

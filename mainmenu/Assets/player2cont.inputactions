@@ -1,0 +1,68 @@
+{
+    "name": "player2cont",
+    "maps": [
+        {
+            "name": "player2",
+            "id": "440e687c-3bf1-4e33-b202-65d8950897f2",
+            "actions": [
+                {
+                    "name": "movemnt2",
+                    "type": "PassThrough",
+                    "id": "60597536-80da-4fa6-bca1-5208e3826453",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "3dc1e3c9-c088-4889-ae22-c6b7461f714b",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movemnt2",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "f33ff794-4cbf-4cc8-951a-694e20dd373b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movemnt2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "3d0806dc-3ef3-460d-ab17-03fcab42651b",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movemnt2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboardd",
+            "bindingGroup": "Keyboardd",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
