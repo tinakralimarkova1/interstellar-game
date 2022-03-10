@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637825343538862725
-    m_Hash: 1761116000
+      ticks: 637825354323081140
+    m_Hash: 3117265038
   m_LockFileStatus:
     m_FilePath: C:/Users/s-kralimarkovat/Documents/GitHub/interstellar-game/mainmenu/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637825343538862725
-    m_Hash: 1562012395
+      ticks: 637825354323167725
+    m_Hash: 2027065738
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

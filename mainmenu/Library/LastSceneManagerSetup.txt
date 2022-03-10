@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Interstelar Insanity/highscoregame.unity
+- path: Assets/Interstelar Insanity/mainmenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
