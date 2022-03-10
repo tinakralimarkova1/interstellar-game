@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637819299699516112
-    m_Hash: 3117265038
+      ticks: 637825343538862725
+    m_Hash: 1761116000
   m_LockFileStatus:
     m_FilePath: C:/Users/s-kralimarkovat/Documents/GitHub/interstellar-game/mainmenu/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637819299699735951
-    m_Hash: 2027065738
+      ticks: 637825343538862725
+    m_Hash: 1562012395
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -85,6 +85,7 @@ m_ResolvedPackages:
     - 3.2.14
     - 3.2.15
     - 3.2.16
+    - 3.2.17
     - 4.0.0
     - 4.0.1
     - 4.1.0
@@ -301,6 +302,7 @@ m_ResolvedPackages:
     - 2.1.8
     - 2.1.9
     - 2.1.10
+    - 2.1.11
     - 3.0.0
     - 3.1.1
     - 3.1.3
@@ -1287,6 +1289,7 @@ m_ResolvedPackages:
     - 2.1.6
     - 2.2.0-preview.1
     - 2.2.0-preview.2
+    - 2.2.0-preview.3
     - 3.0.0-preview.1
     - 3.0.0-preview.3
     - 3.0.0-preview.4
@@ -1306,11 +1309,13 @@ m_ResolvedPackages:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
+    - 3.2.0-pre.3
     - 4.0.0-pre.1
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
+    - 3.2.0-pre.3
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -1440,11 +1445,13 @@ m_ResolvedPackages:
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
+    - 1.7.1
     compatible:
     - 1.6.4
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
+    - 1.7.1
     verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
@@ -3517,6 +3524,7 @@ m_ResolvedPackages:
     - 2.0.2
     - 2.1.0
     - 2.1.1
+    - 2.1.2
     - 3.0.0
     - 3.0.1
     - 4.0.0
