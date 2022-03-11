@@ -18,7 +18,7 @@ public class player3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Rb.velocity = new Vector2(MovementY * speed * Time.deltaTime, 0);
+        Rb.velocity = new Vector2(0,MovementY * speed * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.W))
         {

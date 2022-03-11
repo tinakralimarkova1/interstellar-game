@@ -1,0 +1,54 @@
+{
+    "name": "Player1",
+    "maps": [
+        {
+            "name": "Ship",
+            "id": "18d84691-ebb2-4440-9e3c-87c2b71aaaad",
+            "actions": [
+                {
+                    "name": "MoveUp",
+                    "type": "Value",
+                    "id": "86bda9b6-9673-4590-a8ec-8417ec3427cc",
+                    "expectedControlType": "Key",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MoveDown",
+                    "type": "Button",
+                    "id": "7890dc3d-e5d8-470b-bd77-4fb40dbbeb0c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cd81dbb4-5659-46bd-9cff-0298fc7eb688",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "085254ec-f8ce-4a9c-aa6e-be60d3c11e7b",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
