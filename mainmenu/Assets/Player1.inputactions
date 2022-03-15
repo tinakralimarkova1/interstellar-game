@@ -7,16 +7,16 @@
             "actions": [
                 {
                     "name": "MoveUp",
-                    "type": "Value",
+                    "type": "PassThrough",
                     "id": "86bda9b6-9673-4590-a8ec-8417ec3427cc",
-                    "expectedControlType": "Key",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
                 },
                 {
                     "name": "MoveDown",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "7890dc3d-e5d8-470b-bd77-4fb40dbbeb0c",
                     "expectedControlType": "Button",
                     "processors": "",
