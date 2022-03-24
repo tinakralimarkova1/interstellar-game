@@ -7,6 +7,7 @@ public class Newplayersc : MonoBehaviour
 {
     [SerializeField] float speed;
     Vector2 moveValue;
+    public int coinV;
 
     public void Move (InputAction.CallbackContext context)
     {
@@ -24,6 +25,7 @@ public class Newplayersc : MonoBehaviour
         if(other.gameObject.CompareTag("coin"))
         {
             Destroy(other.gameObject);
+            coinV += 1;
         }
     }
 }
