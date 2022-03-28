@@ -21,8 +21,13 @@ public class ScoreManager : MonoBehaviour
 
     public void ChangeScore(int coinValue)
     {
+
         score += coinValue;
-        text.text = "X" + score.ToString();
+
+        PlayerPrefs.SetFloat("CoinScore", score);
+
+
+        text.text = ((int)PlayerPrefs.GetFloat("CoinScore")).ToString();
     }
 
 }
