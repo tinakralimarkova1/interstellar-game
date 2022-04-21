@@ -15,6 +15,7 @@ public class SkinObjectManager : MonoBehaviour
     void Start()
     {
         skins = new List<GameObject>(Resources.LoadAll<GameObject>("Target"));
+        Instantiate(skins[selectedSkin], new Vector2(0, 0), Quaternion.identity);
     }
 
    
